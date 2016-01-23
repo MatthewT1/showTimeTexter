@@ -12,7 +12,7 @@ I just used pip to install them...
 * `Pip install beautifulsoup`
 * `pip install yagmail`
 
-You'll also need a Gmail account - I didn't feel like dealing with SMTP so I used YAG to handle it. 
+You'll also need a Gmail account - I didn't feel like dealing with SMTP so I used YAG(https://github.com/kootenpv/yagmail) to handle it. 
 
 ##Usage
 Change the first few lines to the info for your specific use case - these lines in particular will need to be updated:
