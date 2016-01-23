@@ -1,6 +1,7 @@
 # Showtime Texter 
 ##Description
-This Python Script checks an RSS feed from Fandango for the showtimes of our local dollar theatre then looks up info for each movie through http://www.omdbapi.com, then it texts that info to a specified number through Gmail. 
+This Python Script checks an RSS feed from Fandango for the showtimes of our local dollar theatre then looks up info for each movie through http://www.omdbapi.com, then it texts that info to a specified number through Gmail. I created a scheduled task to run this every Friday morning - this way my girlfriend and I don't miss any movies we've been waiting to see! 
+
 ##PreReqs
   * FeedParser
   * BeautifulSOup
