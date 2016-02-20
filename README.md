@@ -21,7 +21,7 @@ global gmailAppPass = ''
 global gmailUsername = 'insertEmailAddress@gmail.com'
 global to = '@tomomail.net'
 ```
-FandangoRSSURL can be generated at http://www.fandango.com/rss/moviefeed - just put inyour zip code, tick off the theatre you want to monitor, then use the rss url for it in the variable. Automatically looking for and using multiple theatres is in the works, right now just use one of them. 
+FandangoRSSURL can be generated at http://www.fandango.com/rss/moviefeed - just put in your zip code, tick off the theatre you want to monitor, then use the rss url for it in the variable.  
 
 gmailAppPAss - this is an app specific password for gmail - see https://support.google.com/accounts/answer/185833?hl=en for more details. I use 2 factor authentication so I had to do this, if you don't you could use your normal gmail password. 
 
@@ -29,6 +29,6 @@ gmailUserNAme = the gmail address you're using to send out the text
 
 to  - The person you want to text. Usually these are just phonenumber@carrier.com, see http://solutions.csueastbay.edu/questions.php?questionid=348 for more info. 
 
-After changing those just do `python main.py` and see what happens and throw in a bug report if it doesn't work. 
+After changing those just do `python main.py` to test everything out - please submit a bug report if it doesn't work. 
 
-
+To have it run automatically you can use Chron on Macs/*nix or Scheduled Tasks on Windows. 
