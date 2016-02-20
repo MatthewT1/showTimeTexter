@@ -7,11 +7,9 @@ This Python Script checks an RSS feed from Fandango for the showtimes of our loc
   * BeautifulSOup
   * YagMAil
 
-I just used pip to install them... 
+You can easily install all of them through the 'stable-req.txt' file - just do:
+* `pip install -r stable-req.txt`
 
-* `Pip Install FeedPArser`
-* `Pip install beautifulsoup`
-* `pip install yagmail`
 
 You'll also need a Gmail account - I didn't feel like dealing with SMTP so I used YAG(https://github.com/kootenpv/yagmail) to handle it. 
 
