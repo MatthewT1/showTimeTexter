@@ -1,0 +1,6 @@
+beautifulsoup4==4.4.1
+feedparser==5.2.1
+keyring==8.0
+requests==2.9.1
+sgmllib3k==1.0.0
+yagmail==0.4.116
